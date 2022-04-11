@@ -1,0 +1,106 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.DivMain {
+    margin-left: 33.33%;
+    height: 500px;
+    width: 500px;
+    background-color: lightcyan
+}
+
+.DivOne {
+    height: 10%;
+    width: 20%;
+    background-color: red;
+    float: left;
+}
+
+.DivTwo {
+    height: 10%;
+    width: 20%;
+    background-color: green;
+    float: right;
+    text-align: right;
+}
+.DivThree {
+    height: 20%;
+    width: 50%;
+
+    background-color: yellow;
+
+    float: left;
+    clear: right;
+
+    text-align: center;
+
+}
+.DivFour {
+    height: 20%;
+    width: 50%;
+    background-color: orange;
+    float: left;
+    text-align: center;
+}
+.DivFive {
+    height: 25%;
+    width: 100%;
+    background-color: plum;
+    font-size: 15px;
+    float: left;
+    clear: both;
+}
+
+.DivFiveOne {
+    height: 100%;
+    width: 50%;
+    background-color: lightblue;
+    color: crimson;
+    float: left;
+    text-align: center;
+    
+}
+.DivFiveTwo {
+    height: 100%;
+    width: 50%;
+    background-color: lightcoral;
+    color: blue;
+    float: left;
+    text-align: center;
+}
+
+.InnerDiv {
+    height: 25%;
+    width: 25%;
+    border: 2px solid orange;
+
+    background-color: darkgoldenrod;
+    color: darkblue;
+    float: right;
+    clear: right;
+  
+}
+
+.DivSix {
+    height: 45%;
+    width: 100%;
+    background-color: beige;
+    font-size: 25px;
+    float: left;
+    clear: left;
+}
